@@ -81,7 +81,7 @@ LIBRARY-MANAGEMENT-SYSTEM-LMS/
 ├── issues.txt
 └── README.md
 
-🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical knowledge and hands-on experience in:
 
@@ -98,7 +98,8 @@ Organizing code using modular programming with multiple source files.
 Using extern variables to share data between different C files.
 Compiling and managing the project using GCC and Makefile.
 Improving problem-solving, debugging, and programming skills in C.
-🔄 Project Workflow
+
+## Project Workflow
                     Start
                       │
                       ▼
@@ -135,7 +136,7 @@ Improving problem-solving, debugging, and programming skills in C.
                       ▼
                      End
 
-Workflow Steps
+##Workflow Steps
 
 The program starts and loads previously saved library data.
 The main menu is displayed.
