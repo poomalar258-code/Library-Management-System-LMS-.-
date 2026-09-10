@@ -1,62 +1,64 @@
 # 📚 Library Management System
 
-A simple **Library Management System** developed in **C** using **Structures, Arrays, Modular Programming, and File Handling**. This project provides a menu-driven interface to efficiently manage book records, issue and return books, and maintain library data. It demonstrates C programming, file operations, date handling, and modular programming using multiple source files.
+A simple **Library Management System** developed in **C** using **Structures, Arrays, Modular Programming, and File Handling**.
+
+This project provides a menu-driven interface to efficiently manage book records, issue and return books, and maintain library data. It demonstrates **C programming, file operations, date handling, and modular programming using multiple source files**.
 
 ---
 
 ## 📌 Features
 
-- ➕ Add New Book
-- 📋 Display All Books
-- 🔍 Search Book by Book ID
-- 🔍 Search Book by Book Name
-- 🔍 Search Book by Author Name
-- ✏️ Modify Book Details
-- ❌ Delete Book Record
-- 📖 Issue Book
-- 🔄 Return Book
-- 📑 List Issued Books
-- 💾 Save Book Records
-- 📂 Load Previously Saved Data
-- 🆔 Automatically Generate Unique Book ID
-- 📅 Automatically Generate Issue Date
-- 📅 Automatically Calculate Due Date
-- 📅 Automatically Record Return Date
-- 💰 Calculate Fine for Late Returns
-- 🚪 Save and Exit
-- 🚪 Exit Without Saving
+* ➕ Add New Book
+* 📋 Display All Books
+* 🔍 Search Book by Book ID
+* 🔍 Search Book by Book Name
+* 🔍 Search Book by Author Name
+* ✏️ Modify Book Details
+* ❌ Delete Book Record
+* 📖 Issue Book
+* 🔄 Return Book
+* 📑 List Issued Books
+* 💾 Save Book Records
+* 📂 Load Previously Saved Data
+* 🆔 Automatically Generate Unique Book ID
+* 📅 Automatically Generate Issue Date
+* 📅 Automatically Calculate Due Date
+* 📅 Automatically Record Return Date
+* 💰 Calculate Fine for Late Returns
+* 🚪 Save and Exit
+* 🚪 Exit Without Saving
 
 ---
 
 ## 🛠️ Technologies & Tools Used
 
-- C Programming
-- GCC Compiler
-- Linux
-- Makefile
-- Data Structures (Structures and Arrays)
-- File Handling
-- Date and Time Functions
-- Modular Programming
+* C Programming
+* GCC Compiler
+* Linux
+* Makefile
+* Data Structures — Structures and Arrays
+* File Handling
+* Date and Time Functions
+* Modular Programming
 
 ---
 
 ## 📚 Concepts Used
 
-- Structures
-- Arrays
-- Functions
-- `extern` Variables
-- Modular Programming
-- Multiple Source Files
-- File Handling
-- String Handling
-- Date and Time Functions
-- Loops
-- Conditional Statements
-- `switch-case`
-- GCC Compilation
-- Makefile
+* Structures
+* Arrays
+* Functions
+* `extern` Variables
+* Modular Programming
+* Multiple Source Files
+* File Handling
+* String Handling
+* Date and Time Functions
+* Loops
+* Conditional Statements
+* `switch-case`
+* GCC Compilation
+* Makefile
 
 ---
 
@@ -80,26 +82,33 @@ LIBRARY-MANAGEMENT-SYSTEM-LMS/
 ├── books.txt
 ├── issues.txt
 └── README.md
+```
 
-## Learning Outcomes
+---
+
+## 🎓 Learning Outcomes
 
 Through this project, I gained practical knowledge and hands-on experience in:
 
-Implementing Structures and Arrays for library book management.
-Performing CRUD operations such as Add, Display, Search, Update, and Delete.
-Using File Handling functions such as fopen(), fclose(), fprintf(), and fscanf() for data storage and retrieval.
-Implementing Issue and Return operations for library books.
-Automatically generating unique Book IDs.
-Automatically generating Issue Date and Due Date.
-Calculating fine amounts for late book returns.
-Using Structures to organize book and issue information.
-Developing a menu-driven console application in C.
-Organizing code using modular programming with multiple source files.
-Using extern variables to share data between different C files.
-Compiling and managing the project using GCC and Makefile.
-Improving problem-solving, debugging, and programming skills in C.
+* Implementing Structures and Arrays for library book management.
+* Performing CRUD operations such as Add, Display, Search, Update, and Delete.
+* Using File Handling functions such as `fopen()`, `fclose()`, `fprintf()`, and `fscanf()` for data storage and retrieval.
+* Implementing Issue and Return operations for library books.
+* Automatically generating unique Book IDs.
+* Automatically generating Issue Date and Due Date.
+* Calculating fine amounts for late book returns.
+* Using Structures to organize book and issue information.
+* Developing a menu-driven console application in C.
+* Organizing code using modular programming with multiple source files.
+* Using `extern` variables to share data between different C files.
+* Compiling and managing the project using GCC and Makefile.
+* Improving problem-solving, debugging, and programming skills in C.
 
-## Project Workflow
+---
+
+## 🔄 Project Workflow
+
+```text
                     Start
                       │
                       ▼
@@ -135,25 +144,34 @@ Improving problem-solving, debugging, and programming skills in C.
                       │
                       ▼
                      End
+```
 
-##Workflow Steps
+---
 
-The program starts and loads previously saved library data.
-The main menu is displayed.
-The user selects an operation.
-Book records are stored using structures and arrays.
-The user can Add, Display, Search, Update, and Remove books.
-The system automatically generates a unique Book ID when a new book is added.
-A book can be issued to a user after checking its availability.
-The system automatically records the Issue Date and Due Date.
-When a book is returned, the system records the Return Date.
-If the book is returned late, the system calculates the fine amount.
-The available book quantity is updated during issue and return operations.
-The Save option stores the book and issue records into files.
-The user can choose Save and Exit, Exit Without Saving, or Cancel.
-The program continues until the user selects the Exit option.
-📸 Sample Output
-Main Menu
+## ⚙️ Workflow Steps
+
+1. The program starts and loads previously saved library data.
+2. The main menu is displayed.
+3. The user selects an operation.
+4. Book records are stored using structures and arrays.
+5. The user can **Add, Display, Search, Update, and Remove** books.
+6. The system automatically generates a unique Book ID when a new book is added.
+7. A book can be issued to a user after checking its availability.
+8. The system automatically records the Issue Date and Due Date.
+9. When a book is returned, the system records the Return Date.
+10. If the book is returned late, the system calculates the fine amount.
+11. The available book quantity is updated during issue and return operations.
+12. The Save option stores the book and issue records into files.
+13. The user can choose **Save and Exit, Exit Without Saving, or Cancel**.
+14. The program continues until the user selects the Exit option.
+
+---
+
+## 📸 Sample Output
+
+### 🏠 Main Menu
+
+```text
 +----------------------------------------+
 |       LIBRARY MANAGEMENT SYSTEM        |
 +----------------------------------------+
@@ -179,7 +197,13 @@ Main Menu
 +----------------------------------------+
 
 Enter your choice:
-➕ Add Book
+```
+
+---
+
+### ➕ Add Book
+
+```text
 ========================================
               ADD NEW BOOK
 ========================================
@@ -199,7 +223,13 @@ Title    : C Programming
 Author   : Dennis Ritchie
 Quantity : 5
 -------------------------
-📋 Display All Books
+```
+
+---
+
+### 📋 Display All Books
+
+```text
 +--------------------------------------------------------------------------------+
 |                              ALL BOOKS                                         |
 +--------------------------------------------------------------------------------+
@@ -213,7 +243,13 @@ Quantity : 5
 +----------+---------------------------+---------------------------+----------+
 
 Total Books: 3
-🔍 Search Book
+```
+
+---
+
+### 🔍 Search Book
+
+```text
 ========================================
               SEARCH BOOK
 ========================================
@@ -236,7 +272,13 @@ Title    : C Programming
 Author   : Dennis Ritchie
 Quantity : 5
 -------------------------
-✏️ Update Book
+```
+
+---
+
+### ✏️ Update Book
+
+```text
 ========================================
           UPDATE BOOK DETAILS
 ========================================
@@ -261,7 +303,13 @@ Enter your choice: 3
 Enter New Quantity: 10
 
 Quantity updated successfully!
-❌ Remove Book
+```
+
+---
+
+### ❌ Remove Book
+
+```text
 ========================================
              REMOVE BOOK
 ========================================
@@ -275,7 +323,13 @@ Enter your choice: A
 Enter Book ID: 2
 
 Book removed successfully!
-📖 Issue Book
+```
+
+---
+
+### 📖 Issue Book
+
+```text
 ========================================
               ISSUE BOOK
 ========================================
@@ -296,7 +350,13 @@ User Name  : Poomalar
 Issue Date : 13-08-2026
 Due Date   : 20-08-2026
 ========================================
-🔄 Return Book
+```
+
+---
+
+### 🔄 Return Book
+
+```text
 ========================================
               RETURN BOOK
 ========================================
@@ -308,29 +368,53 @@ Book returned successfully.
 
 Return Date : 20-08-2026
 Fine Amount : Rs.0
-📑 List Issued Books
+```
+
+---
+
+### 📑 List Issued Books
+
+```text
 +------------------------------------------------------------------------------------------------+
 |                                      ISSUED BOOKS                                              |
 +----------+----------------------+----------+----------------------+------------+------------+
 | Book ID  | Book Title           | User ID  | User Name            | Issue Date | Due Date   |
 +----------+----------------------+----------+----------------------+------------+------------+
 | 1        | C Programming        | 101      | Poomalar             | 13-08-2026 | 20-08-2026 |
-+----------+----------------------+----------+----------------------+------------+------------+
-💾 Save Records
++----------+----------------------+----------+----------------------+------------+
+```
+
+---
+
+### 💾 Save Records
+
+```text
 ========================================
                 SAVE
 ========================================
 
 Book records saved successfully.
 Issue records saved successfully.
-📂 Load Records
+```
+
+---
+
+### 📂 Load Records
+
+```text
 ========================================
                 LOAD
 ========================================
 
 Book records loaded successfully.
 Issue records loaded successfully.
-🚪 Exit
+```
+
+---
+
+### 🚪 Exit
+
+```text
 ========================================
                  EXIT
 ========================================
@@ -343,107 +427,158 @@ Enter your choice: A
 
 Data saved successfully!
 Program exiting...
-🆔 Automatic Book ID Generation
+```
+
+---
+
+## 🆔 Automatic Book ID Generation
 
 The system automatically generates a unique Book ID.
 
 For example, if the existing Book IDs are:
 
+```text
 1
 3
 4
+```
 
 When a new book is added:
 
+```text
 Generated Book ID: 2
+```
 
 The system finds the smallest available ID instead of asking the user to enter the ID manually.
 
-Example:
+### Example
 
+```text
 Existing IDs:
 
 1
 3
 4
 
-New Book
-   ↓
-Generated ID = 2
-📖 Book Issue and Return System
+       New Book
+          ↓
+   Generated ID = 2
+```
+
+---
+
+## 📖 Book Issue and Return System
 
 When a book is issued, the system records:
 
-- Issue ID
-- Book ID
-- User ID
-- User Name
-- Issue Date
-- Due Date
-- Return Date
-- Fine Amount
-- Return Status
+* Issue ID
+* Book ID
+* User ID
+* User Name
+* Issue Date
+* Due Date
+* Return Date
+* Fine Amount
+* Return Status
 
 The available book quantity is reduced when a book is issued.
 
 When the book is returned, the available quantity is increased.
 
-💰 Fine Calculation
+---
+
+## 💰 Fine Calculation
 
 A fine is calculated when a book is returned after the due date.
 
+```text
 Fine Amount = Number of Late Days × ₹5
+```
 
-Example:
+### Example
 
+```text
 Late Days = 3
 
 Fine = 3 × ₹5
 
 Fine = ₹15
-💾 File Handling
+```
 
-The project uses File Handling to store library data permanently.
+---
 
-Book File
-books.txt
+## 💾 File Handling
 
-Stores:
+The project uses **File Handling** to store library data permanently.
 
-Book ID
-Book Title
-Author Name
-Quantity
-Issue File
-issues.txt
+### 📚 Book File
+
+**books.txt**
 
 Stores:
 
-Issue ID
-Book ID
-User ID
-User Name
-Issue Date
-Due Date
-Return Date
-Fine Amount
-Return Status
+* Book ID
+* Book Title
+* Author Name
+* Quantity
+
+### 📖 Issue File
+
+**issues.txt**
+
+Stores:
+
+* Issue ID
+* Book ID
+* User ID
+* User Name
+* Issue Date
+* Due Date
+* Return Date
+* Fine Amount
+* Return Status
 
 This allows previously saved data to be loaded when the program starts again.
 
-⚙️ Compilation
-Using Makefile
+---
+
+## ⚙️ Compilation
+
+### Using Makefile
+
+```bash
 make
-Or Compile Manually
+```
+
+### Compile Manually
+
+```bash
 gcc library.c exit.c show.c list.c save.c return.c issue.c add.c update.c remove.c search.c -o lms
-▶️ Run the Program
+```
+
+---
+
+## ▶️ Run the Program
+
+```bash
 ./lms
-🧹 Clean Build
+```
+
+---
+
+## 🧹 Clean Build
+
+```bash
 make clean
-🧠 Project Highlights
+```
+
+---
+
+## 🧠 Project Highlights
 
 This project is divided into multiple C source files. Each file is responsible for a specific library operation.
 
+```text
                      library.c
                          │
         ┌────────────────┼────────────────┐
@@ -467,33 +602,42 @@ This project is divided into multiple C source files. Each file is responsible f
                          │
                          ▼
                       exit.c
+```
+
+### Benefits of Modular Programming
 
 Modular programming makes the project easier to:
 
-Understand
-Debug
-Maintain
-Modify
-Extend
-🔮 Future Improvements
+* Understand
+* Debug
+* Maintain
+* Modify
+* Extend
+
+---
+
+## 🔮 Future Improvements
 
 Possible future enhancements:
 
-🔐 Admin Login System
-👥 User Management
-📊 Library Reports
-📈 Most Issued Books Report
-⏰ Overdue Books Report
-💰 Total Fine Collection Report
-🔎 Case-Insensitive Search
-🛡️ Advanced Input Validation
-📁 Separate User Database
-📚 Book Categories
-📅 Different Due Dates for Different Books
-🖥️ Improved User Interface
-👩‍💻 Author
+* 🔐 Admin Login System
+* 👥 User Management
+* 📊 Library Reports
+* 📈 Most Issued Books Report
+* ⏰ Overdue Books Report
+* 💰 Total Fine Collection Report
+* 🔎 Case-Insensitive Search
+* 🛡️ Advanced Input Validation
+* 📁 Separate User Database
+* 📚 Book Categories
+* 📅 Different Due Dates for Different Books
+* 🖥️ Improved User Interface
 
-Poomalar R
+---
+
+## 👩‍💻 Author
+
+**Poomalar R**
 
 🌱 Embedded Systems Enthusiast
 💻 C Programmer
@@ -502,10 +646,16 @@ Poomalar R
 🐧 Linux
 ⚡ Embedded Systems
 
-GitHub: https://github.com/poomalar258-code
+**GitHub:** https://github.com/poomalar258-code
 
-📄 License
+---
 
-This project is licensed for educational and learning purposes only. You are free to use, modify, and share this project for academic or personal learning with proper credit to the author.
+## 📄 License
 
-⭐ If you found this project helpful, consider giving it a Star on GitHub!
+This project is licensed for educational and learning purposes only.
+
+You are free to use, modify, and share this project for academic or personal learning with proper credit to the author.
+
+---
+
+⭐ **If you found this project helpful, consider giving it a Star on GitHub!**
