@@ -4,6 +4,7 @@ A simple **Library Management System** developed in **C** using **Structures, Ar
 
 This project provides a menu-driven interface to efficiently manage book records, issue and return books, and maintain library data. It demonstrates **C programming, file operations, date handling, and modular programming using multiple source files**.
 
+![Library Management System](Library%20Management%20System%20Dashboard.png)
 ---
 
 ## 📌 Features
